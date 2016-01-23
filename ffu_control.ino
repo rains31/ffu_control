@@ -39,7 +39,7 @@
 #define ON LOW
 #define OFF HIGH
 
-//参考PMS5003文档，定义控制质量结构
+//参考PMS5003文档，定义空气质量结构
 struct AQ {
   char head[2];
   unsigned short len;
